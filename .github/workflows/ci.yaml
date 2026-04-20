@@ -7,7 +7,7 @@ jobs:
   test-app: 
     runs-on: ubuntu:latest
 
-    tasks: 
+    task: 
     - name: Checkout code
       uses: actions/checkout@v3
 
