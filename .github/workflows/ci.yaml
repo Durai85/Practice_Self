@@ -5,7 +5,7 @@ on:
 
 jobs:
   test-app: 
-    run-on: ubuntu:latest
+    runs-on: ubuntu:latest
 
     tasks: 
     - name: Checkout code
