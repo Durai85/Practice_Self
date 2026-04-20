@@ -15,4 +15,4 @@ jobs:
       uses: pip install -r requirements
 
     - name: Test file
-      uses: pytest test.py -v 
+      run : pytest test.py -v 
