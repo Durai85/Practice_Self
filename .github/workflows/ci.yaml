@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Install requirements
-      uses: pip install -r requirements
+      uses: pip install -r requirements.txt
 
     - name: Test file
       run : pytest test.py -v 
